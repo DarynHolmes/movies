@@ -13,7 +13,7 @@ The live demo can be seen [here](https://movies-online.pockethost.io/).
 
 Playwright test report can be viewed [here](https://movies-online.pockethost.io/playwright-report/).
 
-## Notable mentions
+## Notes
 
 Benefits of Tanstack Vue Query
 
@@ -40,8 +40,14 @@ No UI component library was used for this demo, however they can be useful in la
 
 Pockethost was used to host the demo because I have an active account with that provider.
 
+## Error handling
+
+There is error handling with requests that retry and there is an error message if the retries fail. When this happens a message is shown and user is given the option to retry.
+
 ## Further steps
 
 If I had to continue with this project I would make some UI improvements. For instance, I would place the pagination at the bottom. I would make this and the search field sticky, so they are always visible, even when scrolling.
+
+The pagination would need to improved and infinite scroll should be considered.
 
 I would assume there would be new feature requests, such as viewing additional details of a movie.
