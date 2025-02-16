@@ -5,7 +5,7 @@ This was written in Vue. It makes use of the following technologies:
 - Tanstack Vue Query - state management, client side caching, network retries
 - Tailwind CSS - utility based CSS
 - Vue test-utils - component testing (a few examples were added)
-- Playwright - e2e test (an example was added)
+- Playwright - e2e test (an example using a mocked backend)
 
 ## Live demo
 
