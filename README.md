@@ -29,8 +29,8 @@ UX considerations
 
 - The API request is debounced, which means the search will only occur after the user stops typing
 - The page is responsive and works on modern mobiles
-- To avoid content flashes, the current set of movies is kept until they can be replaced. They are grayed out to show work is being done. Skeletons could be used for this as well.
-- A page size of 12 was chosen, as this is divisible by all the grid column amounts that were used. Therefore each row will be full, provided the user is not on the last page.
+- To avoid content flashes, the current set of movies is kept until they can be replaced. They are grayed out to show work is being done. Skeletons could be used for this as well
+- A page size of 12 was chosen, as this is divisible by all the grid column amounts that were used. Therefore each row will be full, provided the user is not on the last page
 
 Tests
 
@@ -51,6 +51,6 @@ There is error handling with requests that retry and there is an error message i
 
 If I had to continue with this project I would make some UI improvements. For instance, I would place the pagination at the bottom. I would make this and the search field sticky, so they are always visible, even when scrolling.
 
-The pagination would need to improved and infinite scroll should be considered.
+The pagination would need to be improved and infinite scroll should be considered.
 
 I would assume there would be new feature requests, such as viewing additional details of a movie.
