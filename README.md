@@ -30,6 +30,7 @@ UX considerations
 - The API request is debounced, which means the search will only occur after the user stops typing
 - The page is responsive and works on modern mobiles
 - To avoid content flashes, the current set of movies is kept until they can be replaced. They are grayed out to show work is being done. Skeletons could be used for this as well.
+- A page size of 12 was chosen, as this is divisible by all the grid column amounts that were used. Therefore each row will be full, provided the user is not on the last page.
 
 Tests
 
