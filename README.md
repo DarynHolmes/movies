@@ -51,6 +51,6 @@ There is error handling with requests that retry and there is an error message i
 
 If I had to continue with this project I would make some UI improvements. For instance, I would place the pagination at the bottom. I would make this and the search field sticky, so they are always visible, even when scrolling.
 
-The pagination would need to improved and infinite scroll should be considered.
+The pagination would need to be improved and infinite scroll should be considered.
 
 I would assume there would be new feature requests, such as viewing additional details of a movie.
