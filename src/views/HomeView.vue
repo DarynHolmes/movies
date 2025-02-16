@@ -30,7 +30,7 @@ const { data, isError, isFetching, isPlaceholderData, refetch } = useQuery({
 
 <template>
   <main>
-    <div class="container mx-auto">
+    <div class="container mx-auto mt-5">
       <div>
         <input
           v-model="queryText"

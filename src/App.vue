@@ -5,7 +5,7 @@ import { RouterView } from 'vue-router'
 <template>
   <div>
     <header>
-      <div class="bg-teal-500 shadow-2xl">
+      <div class="bg-teal-500 shadow-lg">
         <div class="text-white p-5 container mx-auto">
           <h1 class="text-3xl">Movies</h1>
           <nav>
