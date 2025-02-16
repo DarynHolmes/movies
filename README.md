@@ -45,6 +45,8 @@ Pockethost was used to host the demo because I have an active account with that 
 
 There is error handling with requests that retry and there is an error message if the retries fail. When this happens a message is shown and user is given the option to retry.
 
+<img src='./docs/error.png' alt="Error message" height='400px' />
+
 ## Further steps
 
 If I had to continue with this project I would make some UI improvements. For instance, I would place the pagination at the bottom. I would make this and the search field sticky, so they are always visible, even when scrolling.
