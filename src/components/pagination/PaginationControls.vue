@@ -14,12 +14,12 @@ const buttons = computed(() => {
   return [
     {
       label: '<',
-      value: -1,
+      value: props.modelValue - 1,
       current: props.modelValue <= 1,
     },
     {
       label: '>',
-      value: 1,
+      value: props.modelValue + 1,
       current: props.modelValue >= props.totalPages,
     },
   ]
@@ -51,7 +51,7 @@ const buttons = computed(() => {
               button.current && 'bg-gray-100 text-gray-500 border-gray-400',
             )
           "
-          @click="$emit('update:modelValue', modelValue + button.value)"
+          @click="$emit('update:modelValue', button.value)"
         >
           {{ button.label }}
         </button>
